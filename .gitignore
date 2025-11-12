@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Project specific
+files/
+files (3)/
+twin_project/__pycache__/
+
+# Temporary
+*.tmp
+*.bak
+*.backup
