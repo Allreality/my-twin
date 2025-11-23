@@ -1,0 +1,522 @@
+# Koya Operations Configuration
+# Total Reality Global - Western Rural District Node
+# Identity: Pa Santige Koroma (Temne)
+# Location: Koya, Western Rural District, Sierra Leone
+
+service:
+  name: koya-operations
+  port: 5006
+  version: "1.1.0"
+  deployment_type: rural_edge_computing
+  
+location:
+  town: Koya
+  district: Western Rural District
+  province: Western Area
+  country: Sierra Leone
+  timezone: Africa/Freetown
+  
+  coordinates:
+    latitude: 8.5167
+    longitude: -13.1667
+  
+  context:
+    setting: Rural agricultural community
+    population_town: 15000
+    population_district: 100000
+    tribal_composition: Predominantly Temne
+    economy: Agriculture (cassava, rice, palm oil)
+    infrastructure: Developing (mobile connectivity, limited grid power)
+
+identity:
+  operator: Pa Santige Koroma
+  aka: Akil Hashim
+  tribal_affiliation: Temne
+  community: Koya, Western Rural District
+  role: Technology bridge-builder for rural Africa
+  dual_identity: true
+
+# Business Operations
+business:
+  entity: Total Reality Global (Sierra Leone - Koya Operations)
+  registration: Sierra Leone Corporate Affairs Commission
+  principal: Pa Santige Koroma
+  address: Koya, Western Rural District
+  
+  focus_areas:
+    - Rural technology infrastructure development
+    - Agricultural blockchain applications
+    - Temne cultural preservation through technology
+    - Youth technology education and employment
+    - Regional cybersecurity solutions
+    - Diaspora connection platform
+
+  strategic_advantages:
+    - Rural technology deployment model (replicable)
+    - Agricultural integration opportunities
+    - Traditional Temne community access
+    - Cost efficiency (69% vs urban operations)
+    - Infrastructure development impact
+    - Enhanced grant appeal (underserved populations)
+
+# Treasury Configuration
+treasury:
+  name: Temne Abara Nation
+  administrator: Pa Santige Koroma
+  governance: Tribal Council + Technical Oversight + Community Input
+  
+  allocation_rules:
+    operations: 0.40
+    cultural_preservation: 0.25
+    community_development: 0.20
+    reserve_fund: 0.15
+  
+  wallet:
+    primary_chain: solana
+    # address: [SET VIA ENV: TEMNE_TREASURY_WALLET]
+    privacy_layer: midnight
+  
+  community_benefits:
+    - Youth scholarships (Koya students)
+    - Technology training stipends
+    - Cultural preservation equipment
+    - Agricultural cooperative support
+    - Community technology center operations
+
+# x402 Payment Protocol
+x402:
+  endpoint: /x402/payment
+  treasury_destination: Temne Abara Nation
+  settlement_chain: solana
+  privacy_layer: midnight
+  
+  services:
+    compliance_analysis:
+      rate: 0.001  # NIGHT tokens per query
+      currency: NIGHT
+      settlement: daily
+    
+    multi_agent_orchestration:
+      rate: 0.005
+      currency: NIGHT
+      settlement: per_session
+    
+    agricultural_supply_chain:  # NEW for Koya
+      rate: 0.002
+      currency: NIGHT
+      settlement: weekly
+      focus: Farm-to-market transparency
+  
+  revenue_split:
+    treasury: 0.70
+    operations: 0.20
+    development: 0.10
+
+# Midnight Network Configuration
+midnight:
+  node_id: koya-sl-001
+  operator: Pa Santige Koroma / Total Reality Global
+  region: west-africa-rural
+  deployment_type: edge_computing
+  
+  services:
+    - privacy_preserving_transactions
+    - zk_proof_generation
+    - compliance_attestation
+    - cross_border_payments
+    - agricultural_supply_chain_tracking  # NEW
+  
+  connected_nodes:
+    usa: nyc-usa-001
+    regional: west_africa_cluster
+    
+  infrastructure:
+    connectivity: mobile_4g_5g
+    power_source: solar_battery_backup
+    offline_capable: true
+    sync_frequency: hourly
+
+# Connectivity & Infrastructure
+connectivity:
+  primary: 
+    type: Mobile (Africell, Orange)
+    speed: 4G/5G
+    reliability: Moderate (intermittent)
+  
+  backup:
+    type: Satellite (Starlink option)
+    speed: Variable
+    cost: $120/month
+  
+  power:
+    primary: Solar array (5kW)
+    backup: Battery bank (48hr capacity)
+    tertiary: Generator (extended outages)
+  
+  usa_sync:
+    host: nyc.totalreality.global
+    port: 5000
+    sync_interval: 3600  # hourly (vs 300 for urban)
+    offline_queue: true
+  
+  cloud_deployment:
+    primary: AWS Africa (Cape Town)
+    fallback: Azure Africa (Johannesburg)
+    edge_caching: Local Koya server
+    
+  influxdb:
+    deployment: cloud_primary
+    local_cache: true
+    database: total_reality
+    measurement: koya_operations
+    
+    tags:
+      identity: pa_santige_koroma
+      location: koya
+      district: western_rural
+      tribal_context: temne
+      deployment_type: rural
+
+# Cultural Integration
+cultural:
+  language: Temne
+  community: Koya, Western Rural District
+  knowledge_base_path: /data/temne_knowledge/koya/
+  governance_model: tribal_council_community_input
+  
+  preservation_initiatives:
+    language:
+      - Temne language documentation (Koya dialect)
+      - Oral history digitization (Koya elders)
+      - Traditional knowledge blockchain storage
+      - Youth language education programs
+    
+    heritage:
+      - Agricultural practices documentation
+      - Traditional ceremonies recording
+      - Artisan skills preservation
+      - Governance traditions digitization
+    
+    community:
+      - Technology education (50+ youth annually)
+      - Cultural events documentation
+      - Diaspora connection platform
+      - Elder-youth knowledge transfer programs
+
+# Agricultural Integration (Koya-Specific)
+agricultural:
+  enabled: true
+  focus: Supply chain transparency + traditional knowledge
+  
+  partnerships:
+    - Koya Farmers Association
+    - Western Rural District agricultural cooperatives
+    - Sierra Leone Ministry of Agriculture
+  
+  pilot_projects:
+    cassava_supply_chain:
+      status: planning
+      blockchain: midnight_network
+      participants: 50+ farmers
+      goal: Farm-to-market transparency
+    
+    traditional_farming_knowledge:
+      status: planning
+      focus: Temne agricultural practices
+      preservation: blockchain_storage
+      
+    market_access:
+      status: planning
+      goal: Connect farmers to urban markets
+      payment: x402_protocol
+
+# Community Technology Center
+community_center:
+  facility:
+    type: Shared community space
+    size: 50-100 sq meters
+    location: Central Koya
+    partnership: Western Rural District Council
+  
+  equipment:
+    servers: 2x AMD EPYC (SEV-SNP capable)
+    workstations: 5-10 public access computers
+    documentation_studio: Audio/video equipment
+    training_space: Classroom setup (20 person capacity)
+  
+  programs:
+    technology_training:
+      duration: 12 weeks
+      capacity: 20 students per cohort
+      frequency: Quarterly
+      stipend: $50/month per student
+    
+    cultural_documentation:
+      focus: Oral histories, traditional practices
+      equipment: Recording studio
+      archive: Blockchain storage
+    
+    community_access:
+      hours: Monday-Saturday, 8am-6pm
+      services: Internet access, training, documentation
+      cost: Free for Koya residents
+
+# Team Structure
+team:
+  leadership:
+    - name: Pa Santige Koroma
+      role: Technical Lead & Cultural Bridge
+      location: Koya (on-site) / NYC (strategic planning)
+  
+  koya_local_staff:
+    technical_coordinator:
+      count: 1
+      fte: 1.0
+      salary: $6000/year (local rate)
+      
+    cultural_documentation:
+      count: 1
+      fte: 0.5
+      salary: $3000/year
+      
+    community_liaison:
+      count: 1
+      fte: 0.5
+      salary: $3000/year
+      
+    youth_trainees:
+      count: 3-5
+      stipend: $600/year each
+      training_duration: 12 months
+  
+  remote_support:
+    - Akil Hashim (NYC - Architecture & Strategy)
+    - DevOps Engineer (USA - Infrastructure support)
+    - Grant Writer (Contract - Funding applications)
+
+# Monitoring & Metrics
+monitoring:
+  health_check_interval: 300  # 5 minutes
+  metrics_export: true
+  offline_buffer: 48_hours  # Store locally if disconnected
+  
+  tracked_metrics:
+    technical:
+      - x402_transactions
+      - treasury_balance
+      - midnight_proofs_generated
+      - service_uptime
+      - usa_sync_latency
+      - connectivity_status
+      - power_status
+    
+    community:
+      - youth_trained
+      - cultural_records_preserved
+      - farmers_onboarded
+      - community_events_held
+      - technology_center_visitors
+    
+    agricultural:
+      - supply_chain_transactions
+      - farmers_participating
+      - products_tracked
+      - traditional_knowledge_documented
+
+# Partnerships
+partnerships:
+  local_government:
+    - Western Rural District Council
+    - Sierra Leone Ministry of Agriculture
+    - Koya Chiefdom Administration
+  
+  agricultural:
+    - Koya Farmers Association
+    - Western Rural agricultural cooperatives
+    - Cassava processing cooperatives
+  
+  educational:
+    - Koya Secondary School
+    - Western Rural vocational training centers
+    - University of Sierra Leone (Fourah Bay) - outreach
+  
+  international:
+    - USAID Sierra Leone (rural development)
+    - World Bank (agricultural technology)
+    - FAO (food security programs)
+    - UNESCO (cultural preservation)
+  
+  diaspora:
+    - Temne diaspora organizations
+    - Koya hometown associations (USA, UK)
+    - Cultural preservation groups
+
+# Development Roadmap
+roadmap:
+  phase_1_foundation:
+    duration: Months 1-3
+    location_activities:
+      - Identify community space in Koya
+      - Meet with Western Rural District Council
+      - Connect with Koya Farmers Association
+      - Assess infrastructure (internet, power, space)
+      - Engage tribal council and community leaders
+    
+    technical:
+      - Deploy cloud infrastructure
+      - Configure edge computing
+      - Set up solar power system
+      - Install mobile internet
+  
+  phase_2_infrastructure:
+    duration: Months 4-6
+    activities:
+      - Launch community technology center
+      - Hire local Koya staff
+      - Begin youth training (first cohort)
+      - Start cultural documentation
+      - Agricultural blockchain pilot (5-10 farmers)
+  
+  phase_3_operations:
+    duration: Months 7-9
+    activities:
+      - Scale youth training (20+ students)
+      - Expand agricultural pilot (50+ farmers)
+      - Launch diaspora remittance service
+      - Community events program
+      - Second staff cohort hired
+  
+  phase_4_scale:
+    duration: Months 10-12
+    activities:
+      - 100+ farmers on blockchain
+      - 50+ youth completed training
+      - Regional replication planning
+      - Research publication (rural tech deployment)
+      - Conference presentations
+
+# Budget (Annual - Koya Operations)
+budget:
+  facility:
+    rent_partnership: 3000  # Subsidized community space
+    solar_power: 2000  # Amortized installation cost
+    maintenance: 1000
+  
+  connectivity:
+    mobile_internet: 1200
+    satellite_backup: 1440  # Optional
+  
+  personnel:
+    local_staff: 12000
+    youth_stipends: 3600  # 6 trainees
+    remote_support: 15000  # Part-time from USA team
+  
+  equipment:
+    servers_infrastructure: 5000  # Amortized
+    community_workstations: 3000
+    cultural_documentation: 2000
+  
+  programs:
+    cultural_preservation: 5000
+    agricultural_pilots: 3000
+    community_events: 2000
+  
+  total_annual: 59240  # ~$60K/year
+  
+  cost_comparison:
+    koya_rural: 59240
+    freetown_urban: 80000
+    savings: 20760  # 26% savings
+
+# Grant Application Enhancements
+grant_narratives:
+  rural_development:
+    focus: Technology access for underserved populations
+    impact: 15,000+ Koya residents + replicable to 1000+ communities
+    innovation: Edge computing for rural infrastructure
+  
+  agricultural_technology:
+    focus: Blockchain for smallholder farmers
+    impact: 500+ farmers benefit from supply chain transparency
+    innovation: Traditional knowledge + modern technology
+  
+  cultural_preservation:
+    focus: Indigenous knowledge documentation
+    impact: 1000+ hours Temne cultural heritage preserved
+    innovation: Blockchain ensures permanence
+  
+  youth_employment:
+    focus: Technology skills training in rural communities
+    impact: 50+ youth annually trained in blockchain/cybersecurity
+    innovation: Apprenticeship model with ongoing employment
+
+# Success Metrics (12 Months)
+success_metrics:
+  technical:
+    - Koya node uptime: 95%+ (despite infrastructure challenges)
+    - x402_payments_processed: 100+
+    - treasury_balance: $10,000+
+    - midnight_proofs_generated: 500+
+  
+  community:
+    - youth_trained: 50+
+    - cultural_records: 100+ hours documented
+    - farmers_onboarded: 50+
+    - community_events: 12+
+    - technology_center_visitors: 500+
+  
+  business:
+    - local_jobs_created: 5+
+    - partnerships_established: 5+
+    - grant_funding_secured: $100,000+
+    - research_publications: 1+
+  
+  impact:
+    - communities_served: Koya + 3 neighboring towns
+    - replication_inquiries: 5+ similar communities
+    - conference_presentations: 2+
+    - media_coverage: 3+ articles
+
+# Risk Management (Koya-Specific)
+risks:
+  infrastructure:
+    connectivity:
+      risk: Intermittent internet
+      mitigation: Edge computing + offline capability
+      backup: Satellite internet
+    
+    power:
+      risk: Grid power unreliable
+      mitigation: Solar + 48hr battery
+      backup: Generator
+  
+  community:
+    technical_expertise:
+      risk: Limited local skills
+      mitigation: 12-week training programs
+      backup: Remote USA support
+    
+    cultural_resistance:
+      risk: Technology skepticism
+      mitigation: Tribal council engagement
+      backup: Tangible benefit demonstration
+  
+  operational:
+    staff_retention:
+      risk: Trained staff leave for urban jobs
+      mitigation: Competitive local wages + mission alignment
+      backup: Continuous training pipeline
+    
+    sustainability:
+      risk: Dependence on external funding
+      mitigation: Revenue generation (x402, agricultural services)
+      backup: Diaspora contributions
+
+# Environment Variables Required
+environment_variables:
+  - TEMNE_TREASURY_WALLET  # Solana wallet address
+  - MIDNIGHT_NODE_KEY      # Midnight Network credentials
+  - INFLUXDB_TOKEN         # Database access
+  - USA_SYNC_API_KEY       # For syncing with NYC node
+  - AFRICEL_API_KEY        # Mobile internet management
+  - SOLAR_MONITOR_KEY      # Power system monitoring

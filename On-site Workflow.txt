@@ -1,0 +1,31 @@
+On-site Workflow
+
+Connect to network
+
+🎯 Your Field Sales Workflow
+At Each Institution:
+
+Assessment (5 minutes):
+
+python3 deploy_compliance_assessment.py "Hospital Name" --type hospital --data-types clinical genomic
+
+Proposal Generation (2 minutes):
+
+python3 generate_proposal.py compliance_assessment_Hospital_Name_*.json
+
+Results: Professional proposal ready for email/presentation
+
+What You'll Have:
+
+✅ Instant Assessment - 30-second setup on any MacBook
+✅ Professional Reports - Compliance scores and gap analysis
+✅ Custom Proposals - Tailored to each institution's specific gaps
+✅ Business Justification - ROI calculations and risk mitigation
+
+💼 Sales Impact
+This transforms every institution visit into:
+
+Problem Discovery - Concrete compliance gaps identified
+Solution Demonstration - Koya addresses specific gaps
+Business Case - Custom proposal with ROI analysis
+Next Steps - Clear pilot program pathway

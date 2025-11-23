@@ -112,11 +112,11 @@ AGENT_CONFIGURATIONS = {
             'handle_digital_twin_payments'  # Can serve as digital twin wallet
         ],
         payment_permissions={
-            'api_services': 10.0,           # Max 10 SOL per API payment
-            'integration_tools': 50.0,      # Max 50 SOL for tools
-            'infrastructure': 25.0,         # Max 25 SOL for infrastructure
-            'service_providers': 100.0,     # Max 100 SOL for providers
-            'daily_limit': 200.0           # Total daily limit
+            'api_services': 1.0,           # Max 1 SOL per API payment
+            'integration_tools': .50,      # Max .5 SOL for tools
+            'infrastructure': .25,         # Max .25 SOL for infrastructure
+            'service_providers': .5,     # Max 100 SOL for providers
+            'daily_limit': 2.0           # Total daily limit
         },
         treasury_percentage=0.1
     ),
