@@ -162,3 +162,14 @@ def get_project_status_summary():
         "community": "Koya, Sierra Leone",
         "leader": "Pa Santige Koroma (Akil)"
     }
+# ── FEBRUARY 21, 2026 UPDATE ──────────────────────────────
+# Import all blocks from today's session
+from Twin_knowledge_update_feb21_2026 import (
+    TAN_GOVERNANCE_UPDATE,
+    KOYA_UPDATE,
+    LEGAL_ADVISOR_UPDATE,
+    SIG_PSF_KNOWLEDGE,
+    FEDERAL_REGISTRATION,
+    INFRASTRUCTURE_STATE,
+    PAYMENTS_KNOWLEDGE,
+)
