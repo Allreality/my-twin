@@ -336,4 +336,6 @@ Saved/
 hs_err_pid*
 
 # Node modules (if any JS tooling)
-node_modules/
+node_modules/memory_db/
+venv/
+__pycache__/
