@@ -339,3 +339,5 @@ hs_err_pid*
 node_modules/memory_db/
 venv/
 __pycache__/
+verify_setup.py
+twin_backup_20251115_182354/
