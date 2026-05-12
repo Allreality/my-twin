@@ -1,0 +1,7 @@
+secrets/
+*.pyc
+__pycache__/
+.env
+state.json
+draft_queue.db
+*.log
